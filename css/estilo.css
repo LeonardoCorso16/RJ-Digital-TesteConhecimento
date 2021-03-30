@@ -27,7 +27,7 @@ header {display: flex;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 142px 0 142px;
+    padding:0 7%;
     align-items: center;
     background-color:#333333;
     height: 33px;
@@ -56,7 +56,7 @@ header {display: flex;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 142px 0 142px;
+    padding: 0 7%;
     align-items: center;
     height: 80px;
     
@@ -87,7 +87,7 @@ header {display: flex;
     height: 60px;
     display: flex;
     flex-direction: row;
-    padding: 0 142px 0 142px;
+    padding: 0 8%;
     background-color: #529BDE;
     justify-content: space-between;
     
@@ -96,7 +96,8 @@ header {display: flex;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 80%;
     
     
 
@@ -124,12 +125,12 @@ header {display: flex;
     justify-content: center;
     flex-direction: row;
     background-color: #fff;
-    margin: 18px 0 18px 0;
+    margin: 18px 0;
     border-radius: 4px;
 }
 .imput-busca{
     height: 24px;
-    width: 304px;
+    width: 100%;
     border-radius: 4px;
     padding-left: 15px;
 
@@ -150,12 +151,8 @@ input:-moz-placeholder { color: #005A92;
     ; }
 .familia img {
 
-
-    position: absolute;
     width: 34px;
     height: 20px;
-    left: 142px;
-    top: 249px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -170,7 +167,7 @@ input:-moz-placeholder { color: #005A92;
 main {
     display: flex;
     flex-direction:column;
-    padding: 0 142px 0 142px;
+    padding: 0 7%;
 }
 
  .Inicio-cidadao {
@@ -200,6 +197,7 @@ main {
 .servicos {
     display:flex;
     flex-direction:column;
+    width: 60%;
 
     
 }
@@ -215,17 +213,15 @@ main {
 }
 
 .minha-familia {
-
-height: 24px;
-margin-left: 14px;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 24px;
-letter-spacing: 0.18px;
-
-color: #005A92;
+    height: 24px;
+    margin-left: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    color: #005A92;
     
 }
 
@@ -234,13 +230,12 @@ color: #005A92;
     flex-direction: column;
     height: 120px;
     flex-wrap: wrap;
-    width: 802px;
+ 
 
 }
 
 .main-botoes{
     height: 36px;
-    width: 420px;
     border-radius: 4px;
     background-color: #529BDE;
     color: #fff;
@@ -261,8 +256,8 @@ color: #005A92;
     display: flex;
     flex-direction: column;
     margin-bottom: 80px;
-    width: 330px;
-    height: 416px;
+    width: 25%;
+    height: 416%;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -274,25 +269,25 @@ color: #005A92;
 
 
 .fig-servicos{
-    height: 172px;
-    width: 330px;
+    height: 100%;
+    width: 100%;
     margin-top: 24px;
 }
 
 footer {
     display: flex;
     flex-direction: column;
+    
 
 }
 .rodape-cinza{
-
     background-color: #EFEFEF;
     height: 40px;
     justify-content:flex-end;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 142px 0 142px;
+    padding: 0 7%;
     
 
 }
@@ -315,15 +310,14 @@ footer {
     justify-content: center;
     flex-wrap: nowrap;
     margin-right:36px;
-
-padding-right: 5px;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 16px;
-letter-spacing: 0.4px;
-color: #4F4F4F;
+    padding-right: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #4F4F4F;
 }
 
 .button-2{
@@ -338,15 +332,14 @@ color: #4F4F4F;
     justify-content: center;
     flex-wrap: nowrap;
     margin-right:36px;
-
-padding-right: 5px;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 16px;
-letter-spacing: 0.4px;
-color: #4F4F4F;
+    padding-right: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #4F4F4F;
 
 }
 
@@ -361,14 +354,14 @@ color: #4F4F4F;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-padding-right: 5px;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 16px;
-letter-spacing: 0.4px;
-color: #4F4F4F;
+    padding-right: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #4F4F4F;
 
 }
 
@@ -388,7 +381,7 @@ color: #4F4F4F;
 
 .rodape-azul{
     background-color:#005A92;
-    padding: 0 260px;
+    padding: 0 12%;
 
 }
 
@@ -398,6 +391,7 @@ color: #4F4F4F;
     justify-content: space-between;
     align-items: center;
     padding-top: 35px;
+    width: 100%;
 }
 
 .img-proderj {
@@ -414,13 +408,12 @@ color: #4F4F4F;
 
 footer p {
     color: #fff;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
 
 }
 
@@ -444,7 +437,7 @@ letter-spacing: 0.4px;
     flex-direction: row;
     justify-content: space-between;
     padding: 25px 0;
-
+    width: 100%;
 }
 
 .footer-endereco{
@@ -453,7 +446,7 @@ letter-spacing: 0.4px;
     width: 269px;
     height:60px ;
     justify-content: space-between;
-    margin:0 150px;
+    margin:0 10%;
     
 
 }
@@ -467,7 +460,6 @@ letter-spacing: 0.4px;
 }
 
 .social{
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
